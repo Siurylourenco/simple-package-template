@@ -1,27 +1,12 @@
-# package_name
+# Simple Package Template
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Este é um exemplo de um pacote Python simples, criado como um modelo para projetos futuros. Ele contém duas funções principais: `say_hello` e `add_numbers`, além de testes unitários para garantir a funcionalidade.
 
-## Installation
+## Funcionalidades
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
-
-```bash
-pip install package_name
-```
-
-## Usage
-
-```python
-from package_name import file1_name
-file1_name.my_function()
-```
-
-## Author
-My_name
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+### Funções disponíveis:
+1. **`say_hello(name: str) -> str`**  
+   Retorna uma saudação personalizada para o nome fornecido.  
+   Exemplo:
+   ```python
+   say_hello("Siury")  # Retorna: "Hello, Siury!"
